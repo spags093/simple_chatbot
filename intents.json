@@ -1,0 +1,19 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hello", "How are you", "What's up", "Howdy", "Good day", "Is anyone there?", "yo", "Hey"],
+     "responses":["Hello!", "Good to see you again!", "Hi there, how can I help?", "Howdy partner!", "Hey there!"],
+     "context_set": ""
+    },
+    {"tag": "goodbye",
+     "patterns": ["goodbye", "bye", "cya", "have a nice day", "have a good day", "peace"],
+     "responses": ["Bye for now!", "Goodbye, friend!", "Talk to you later!", "Adios, muchacho!"],
+     "context_set": ""
+    }
+
+
+
+
+
+
+            ]
+}
