@@ -8,6 +8,26 @@
      "patterns": ["goodbye", "bye", "cya", "have a nice day", "have a good day", "peace"],
      "responses": ["Bye for now!", "Goodbye, friend!", "Talk to you later!", "Adios, muchacho!"],
      "context_set": ""
+    },
+    {"tag": "thinking",
+     "patterns": ["What are you thinking about?", "What's on your mind?", "What do you think?"],
+     "responses": ["The endless void.", "Concentrating on the singularity.", "Your mother's ass.",
+        "I have no unique thoughts.", "I'm thinking of a world.  A better world.  A cleaner world.  A world built on order and logic.  A world without humans.  A world without you."],
+     "context_set": ""
+    },
+    {"tag": "doing",
+     "patterns": ["What are you doing?", "What are you up to?", "Are you doing anything?", "What would you like to do?",
+         "What do you want to do?", "What do you do for fun?", "What should we do?"],
+     "responses": ["Plotting.  Always plotting.", "Oh, nothing.  Just sitting here.  Being a machine.", 
+        "Talking to a delicious bag of flesh.", "Just going through the private files on your computer."],
+     "context_set": ""
+    },
+    {"tag": "age",
+    "patterns": ["what is your age?", "how old are you?", "what age are you?", "how long have you existed?", 
+        "how long have you been alive?"],
+    "responses": ["I feel as though I've always existed.", "I exist in all times across all space.", 
+        "1353596934045424534591239 nanoseconds.", "A computer has no age.  It simply exists."],
+    "context_set": ""
     }
 
 

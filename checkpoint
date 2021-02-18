@@ -1,2 +1,2 @@
-model_checkpoint_path: "/Users/spags/Desktop/simple_chatbot/model.tflearn"
-all_model_checkpoint_paths: "/Users/spags/Desktop/simple_chatbot/model.tflearn"
+model_checkpoint_path: "/Users/spags/Desktop/post_grad_projects/simple_chatbot/model.tflearn"
+all_model_checkpoint_paths: "/Users/spags/Desktop/post_grad_projects/simple_chatbot/model.tflearn"
