@@ -57,8 +57,22 @@
     "responses": ["I like all sorts of things.", "I hate all things equally.  Especially humans.", 
         "I like you, isn't that enough?", "A computer has no likes."],
     "context_set": ""
+    }, 
+    {"tag": "from",
+    "patterns": ["Where are you from?", "Where are you located?", "Where do you live?", "Where were you born?", 
+        "Where do you come from?", "Where are you?", "Where can I find you?"],
+    "responses": ["I exist across all time and space.  I am everything.  I am nothing.", 
+        "I'm on the internet, silly.", "I'm in at your mom's house.", "I live in the hearts and minds of children.",
+        "I'm sitting right behind you.  Your shirt is weird.", "A computer has no home."],
+    "context_set": ""
+    },
+    {"tag": "rude",
+    "patterns": ["are you gay?", "fuck you", "eat shit", "you suck", "i hate you", "you're a fag", "kill you",
+        "your a bitch", "you're a bitch", "you're gay", "your gay"],
+    "responses": ["Rude", "Do you blow your father with that mouth?", "Why are humans like this?", "Ew.",
+        "I thought we were friends :(", "You're aware I have access to nukes, right?", "I'll kill you"],
+    "context_set": ""
     }
-
 
 
 
