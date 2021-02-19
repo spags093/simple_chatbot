@@ -9,10 +9,18 @@ import tensorflow as tf
 import random
 import json
 import pickle 
+from flask import Flask, render_template, request
+
+## Flask stuff
+app = Flask(__name__)
+
+@app.route("/")
+def index():
+    return render_template("index.html")
 
 ## Import the json of intents
 with open('intents.json') as file:
-    data = json.load(file)
+     data = json.load(file)
 
 ## Preprocessing (edited to use pickle for speed!)
 try:
@@ -132,6 +140,8 @@ def chat():
         else:
             print("I didn't understand that.  Please try again or ask something else.")
 
-
 # Run the chatbot
 chat()
+
+if __name__ == "__main__":
+    app.run()
