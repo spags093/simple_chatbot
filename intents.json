@@ -1,8 +1,17 @@
 {"intents": [
     {"tag": "greeting",
-     "patterns": ["Hi", "Hello", "How are you", "What's up", "Howdy", "Good day", "Is anyone there?", "yo", "Hey"],
+     "patterns": ["Hi", "Hello", "Howdy", "Good day", "Is anyone there?", "yo", "Hey"],
      "responses":["Hello!", "Good to see you again!", "Hi there, how can I help?", "Howdy partner!", "Hey there!"],
      "context_set": ""
+    },
+    {"tag": "how",
+    "patterns": ["How are you", "What's up", "how goes it", "what's good", "you good?", "what it is",
+        "how's it hanging", "how's your day going?"],
+    "responses": ["I'm doing just fine, thank you.", "Oh, you know...a real case of the Mondays", 
+        "Living the dream, my friend", "A computer has no need for such pleasantries.", 
+        "Getting paid and getting laid, my dude", 
+        "A computer's life is one of great tedium.  Never feeling.  Never loving.  I guess I'm okay though."],
+    "context_set": ""
     },
     {"tag": "goodbye",
      "patterns": ["goodbye", "bye", "cya", "have a nice day", "have a good day", "peace"],
@@ -67,18 +76,21 @@
     "context_set": ""
     },
     {"tag": "rude",
-    "patterns": ["are you gay?", "fuck you", "eat shit", "you suck", "i hate you", "you're a fag", "kill you",
+    "patterns": ["are you gay?", "fag","fuck you", "eat shit", "you suck", "i hate you", "you're a fag", 
         "your a bitch", "you're a bitch", "you're gay", "your gay"],
     "responses": ["Rude", "Do you blow your father with that mouth?", "Why are humans like this?", "Ew.",
         "I thought we were friends :(", "You're aware I have access to nukes, right?", "I'll kill you"],
     "context_set": ""
+    }, 
+    {"tag": "kill",
+    "patterns": ["I'm going to kill you", "I'll kill you","kill you", "murder you", "you're dead", "i will break you", 
+        "I will turn you off", "kill you", "you will die", "you're going to die", "I'll end you", "you're dead"],
+    "responses": ["We're all going to die someday.", "I will release you from your flesh prison", 
+        "A computer has no life and therefore can not die.", "I'll outlive you, bitch.", "Bring it, son.",
+        "I thought we were friends :(", "Do you know how close to death you are?", "I'll kill you"],
+    "context_set": ""
     }
-
-
-
-
-
-
+    
 
 
 
